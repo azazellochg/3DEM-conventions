@@ -8,6 +8,7 @@
   * Supported image formats: spi. Use [CP](http://www.wadsworth.org/spider_doc/spider/docs/man/cp.html) for conversion.
   * [Euler angles](http://www.wadsworth.org/spider_doc/spider/docs/euler.html): (φ,θ,ψ). Positive rotations of object are clockwise. Projection direction is defined by (φ,θ). ψ is in-plane rotation for tilted image. For untilted ψ=φ=in-plane rotation.
   * Be carefull when using WEB! Conventions are [different](http://www.wadsworth.org/spider_doc/spider/docs/euler.html)!
+  * Conversion between SPIDER and Relion: [link1](http://spider.wadsworth.org/spider_doc/spider/docs/techs/emx/spi2relion.html), [link2](http://spider.wadsworth.org/spider_doc/spider/docs/techs/emx/relion2spi.html)
   
 ---
 ## Case of RCT
