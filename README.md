@@ -3,6 +3,7 @@
 Here you can find description of standard 3DEM conventions (as proposed by [Heymann et al. JSB 15, 196-207 [2005]](http://www.ebi.ac.uk/msd/3dem/paper/JSB_v151p196.pdf)) and conventions used by popular software packages if different.
 
  * 3DEM standard conventions
+ * Bsoft
  * CTFFIND/CTFTILT
  * [EMAN2](eman2.md)
  * [FReAlign](frealign.md)
@@ -46,7 +47,44 @@ Based on definition of Euler angles above, it is easy to see that first two Eule
 ### Degeneracy of Euler angles
 The range of possible Eulerian angles for an asymmetric structure is 0≤φ≤360, 0≤θ≤180, 0≤ψ≤360). However, for each projection whose direction is (φ, θ, ψ) there exists a projection that is related to it by an in-plane mirror operation along x-axis and whose direction is (180+φ, 180-θ, -ψ). Note the projection direction of the mirrored projection is also in the same range of Eulerian angles as all angles are given modulo 360 degrees (i.e., if say φ > 360, then φ = φ - 360, also if φ < 0, then φ = φ + 360. 
 
-### References
+## Conversion between packages
+### Euler angles conversion
+ See the pages for each software..
+
+### CTF parameters conversion
+ * CTFFIND3 to IMAGIC [link](http://grigoriefflab.janelia.org/node/1541#comment-396)
+```
+DEFOCUS1=DFMID1
+DEFOCUS2=DFMID2
+DEFANGLE=90-ANGAST
+```
+ * CTFFIND3 to SPIDER (now CTFFIND3 is [available](http://spider.wadsworth.org/spider_doc/spider/docs/man/ctffind.html) from inside SPIDER)
+```
+ defocus = (DFMID1 + DFMID2)/2;
+astig = (DFMID2 - DFMID1);
+angle_astig = ANGAST - 45;
+if (astig < 0) {
+astig = -astig;
+angle_astig = angle_astig + 90;
+}
+```
+ * SPIDER to FReAlign
+```
+df1 = spider.defocus - spider.magastig/2
+df2 = spider.defocus + spider.magastig/2
+angast = spider.angast + 45
+```
+### Particle coordinate files conversion
+ * [EMAN1/2 boxer to XMIPP 2.4 Mark](http://xmipp.cnb.csic.es/twiki/bin/view/Xmipp/BoxerToXmippMark)
+ * [SPIDER Web to XMIPP 2.4](http://xmipp.cnb.csic.es/twiki/bin/view/Xmipp/WebToXmippMark)
+ * XMIPP 3 to EMAN boxer (N/A)
+
+### File format conversion
+ * [e2proc2d](http://blake.bcm.edu/emanwiki/EMAN2/Programs/e2proc2d)/[e2proc3d](http://blake.bcm.edu/emanwiki/EMAN2/Programs/e2proc3d)
+ * [em2em](https://www.imagescience.de/em2em.html)
+ * [dm3 to other formats](http://sites.bio.indiana.edu/~cryo/conversionFromDm3.html)
+
+## References
   * [3DEM conventions](http://www.ebi.ac.uk/msd/3dem/3DEM_conv.html)
   * [Few info about Euler angles](http://sparx-em.org/sparxwiki/Euler_angles)
   * [The Transform Class in SPARX and EMAN2](http://www.sciencedirect.com/science/article/pii/S1047847706002024)
