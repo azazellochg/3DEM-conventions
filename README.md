@@ -43,3 +43,9 @@ Based on definition of Euler angles above, it is easy to see that first two Eule
 ### Degeneracy of Euler angles
 The range of possible Eulerian angles for an asymmetric structure is 0≤φ≤360, 0≤θ≤180, 0≤ψ≤360). However, for each projection whose direction is (φ, θ, ψ) there exists a projection that is related to it by an in-plane mirror operation along x-axis and whose direction is (180+φ, 180-θ, -ψ). Note the projection direction of the mirrored projection is also in the same range of Eulerian angles as all angles are given modulo 360 degrees (i.e., if say φ > 360, then φ = φ - 360, also if φ < 0, then φ = φ + 360. 
 
+### References
+  * [3DEM conventions](http://www.ebi.ac.uk/msd/3dem/3DEM_conv.html)
+  * [Few info about Euler angles](http://sparx-em.org/sparxwiki/Euler_angles)
+  * [The Transform Class in SPARX and EMAN2](http://www.sciencedirect.com/science/article/pii/S1047847706002024)
+  * [Transform Python class in EMAN2](http://blake.bcm.edu/emanwiki/Eman2TransformInPython)
+  * [Convert Euler angles for projections](http://blake.bcm.edu/emanwiki/EMAN2/FAQ/SpiderEuler)
