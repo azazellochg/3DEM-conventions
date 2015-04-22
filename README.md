@@ -4,14 +4,17 @@ Here you can find description of standard 3DEM conventions (as proposed by [Heym
 
  * 3DEM standard conventions
  * CTFFIND/CTFTILT
- * EMAN2
- * FReAlign
- * IMAGIC
+ * [EMAN2](eman2.md)
+ * [FReAlign](frealign.md)
+ * [IMAGIC](imagic.md)
  * MRC
- * Relion
- * Spider
- * XMIPP
+ * [Relion](relion.md)
+ * [Spider](spider.md)
+ * [XMIPP](xmipp.md)
  * Conversion between packages
+  * Euler angles conversion
+  * Particle coordinate files conversion
+  * File format conversion
  * References
 
 ## 3DEM standard conventions
