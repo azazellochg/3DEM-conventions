@@ -7,5 +7,5 @@
 
 * Coordinate system & header description: [link](http://www2.mrc-lmb.cam.ac.uk/relion/index.php/Conventions_&_File_formats)
 * Supported image formats: mrc, mrcs, spi, img
-* Euler angles: (rot,tilt,psi). Positive rotations of object are clockwise. Projection direction is defined by (rot,tilt).
+* Euler angles: (rot,tilt,psi) = (φ,θ,ψ). Positive rotations of object are clockwise. Projection direction is defined by (rot,tilt).
 Psi is in-plane rotation for tilted image. For untilted rot=psi=in-plane rotation
