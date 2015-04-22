@@ -4,7 +4,7 @@ Here you can find description of standard 3DEM conventions (as proposed by [Heym
 
  * 3DEM standard conventions
  * Bsoft
- * CTFFIND/CTFTILT
+ * [CTFFIND/CTFTILT](ctffind.md)
  * [EMAN2](eman2.md)
  * [FReAlign](frealign.md)
  * [IMAGIC](imagic.md)
