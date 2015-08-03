@@ -22,8 +22,8 @@ Here you can find description of standard 3DEM conventions (as proposed by [Heym
 ### Coordinate and rotation convention
 Coordinate convention is right-handed Cartesian coordinate system. Display convention is for x-axis to increase from left to right, y-axis to increase from bottom to top, and z-axis to increase from back to front (pointing at viewer) as shown:
 
-![xyz_axes](https://cloud.githubusercontent.com/assets/6952870/7271722/ab97fcf6-e8e5-11e4-8ff6-c23e85810ea9.jpg)
-![positive_rot](https://cloud.githubusercontent.com/assets/6952870/7271801/46dda0a8-e8e6-11e4-8a2d-b2441cf5af78.png)
+<img src="https://cloud.githubusercontent.com/assets/6952870/7271722/ab97fcf6-e8e5-11e4-8ff6-c23e85810ea9.jpg" width="120">
+<img src="https://cloud.githubusercontent.com/assets/6952870/7271801/46dda0a8-e8e6-11e4-8a2d-b2441cf5af78.png" width="400">
 
 A positive rotation is defined as clockwise for the object.
 A positive rotation is defined as anti-clockwise for the coordinate system when viewed with the axis of rotation pointing at the viewer. For example, a rotation from the x-axis to the y-axis (about the z-axis) is positive. Note that the object will rotate clockwise when the coordinate system rotates anti-clockwise.
@@ -36,8 +36,7 @@ Traditionally in EM the direction of propagation of the electron beam is thought
 *Euler angles are three successive axial rotations: 1) phi, a rotation about the z-axis; 2) theta, a rotation about the y'-axis; and 3) psi, a rotation about the z''-axis.*
 
 Rotations of coordinate system (anti-clockwise):
-
-![euler](https://cloud.githubusercontent.com/assets/6952870/7271849/a9c70b28-e8e6-11e4-852c-52cfd4a8cd6a.jpg)
+<img src="https://cloud.githubusercontent.com/assets/6952870/7271849/a9c70b28-e8e6-11e4-852c-52cfd4a8cd6a.jpg" width="300">
 
 Recall that it is the matrix at the rightmost end that is applied first. So one might write a 3DEM rotation as (φ, θ, ψ), where φ is applied first, θ second and ψ lastly.
 
@@ -67,6 +66,12 @@ if (astig < 0) {
 astig = -astig;
 angle_astig = angle_astig + 90;
 }
+```
+ * Relion to EMAN2 (use e2reliontoeman.py)
+```
+defocus=(rlnDefocusU+rlnDefocusV)/20000.0
+dfang=rlnDefocusAngle
+dfdiff=(rlnDefocusU-rlnDefocusV)/10000.0
 ```
  * SPIDER to FReAlign
 ```
