@@ -5,9 +5,18 @@
 ![conv_spi](https://cloud.githubusercontent.com/assets/6952870/7274235/6590f508-e8fb-11e4-9600-ccd7ca710a04.png)
 
   * Coordinate system & header description: [link](http://www.wadsworth.org/spider_doc/spider/docs/image_doc.html)
-  * Supported image formats: spi. Use [CP](http://www.wadsworth.org/spider_doc/spider/docs/man/cp.html) for conversion.
+  * Doc file description: [link](http://spider.wadsworth.org/spider_doc/spider/docs/docfile.html)
+  * Supported image formats: spi. Use [CP](http://www.wadsworth.org/spider_doc/spider/docs/man/cp.html) for conversion. See more for [TIFF import](http://spider.wadsworth.org/spider_doc/spider/docs/faq.html#import), [GATAN CCD import](http://spider.wadsworth.org/spider_doc/spider/docs/faq.html#GATAN) 
   * [Euler angles](http://www.wadsworth.org/spider_doc/spider/docs/euler.html): (φ,θ,ψ). Positive rotations of object are clockwise. Projection direction is defined by (φ,θ). ψ is in-plane rotation for tilted image. For untilted ψ=φ=in-plane rotation.
-  * Be carefull when using WEB! Conventions are [different](http://www.wadsworth.org/spider_doc/spider/docs/euler.html)!
+  * Rotation matrix:
+ ```
+ [[cos phi,sin phi, 0],[-sin phi,cos phi,0],[0,0,1]]
+
+ [[cos theta, 0, -sin theta],[0, 1, 0],[sin theta, 0, cos theta]]
+
+ [[cos psi,sin psi, 0],[-sin psi,cos psi,0],[0,0,1]]
+ ```
+  * Be carefull when using WEB!  If a volume is displayed in Web as slices, the observed rotations will be, COUNTERCLOCKWISE for 'phi' and 'psi' rotations around Z-axis and CLOCKWISE for 'theta' rotation around Y-axis. Web displays a volume with first slice on top.
   * Conversion between SPIDER and Relion: [link1](http://spider.wadsworth.org/spider_doc/spider/docs/techs/emx/spi2relion.html), [link2](http://spider.wadsworth.org/spider_doc/spider/docs/techs/emx/relion2spi.html)
   
 ---
