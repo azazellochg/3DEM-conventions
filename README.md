@@ -90,7 +90,7 @@ angast = spider.angast + 45
  * [dm3 to other formats](http://sites.bio.indiana.edu/~cryo/conversionFromDm3.html)
 
 ## References
-  * [3DEM conventions](http://www.ebi.ac.uk/msd/3dem/3DEM_conv.html)
+  * [3DEM conventions](http://www.emdatabank.org/conventions.html)
   * [Few info about Euler angles](http://sparx-em.org/sparxwiki/Euler_angles)
   * [The Transform Class in SPARX and EMAN2](http://www.sciencedirect.com/science/article/pii/S1047847706002024)
   * [Transform Python class in EMAN2](http://blake.bcm.edu/emanwiki/Eman2TransformInPython)
