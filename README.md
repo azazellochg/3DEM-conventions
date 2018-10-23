@@ -49,6 +49,9 @@ The range of possible Eulerian angles for an asymmetric structure is 0≤φ≤36
 ## Conversion between packages
 ### Euler angles conversion
  See the pages for each software..
+ 
+ #### Relion <-> FReAlign
+ <img src="https://user-images.githubusercontent.com/6952870/47355821-4da94480-d6ba-11e8-92f2-796a5c8432f3.png" width="250">
 
 ### CTF parameters conversion
  * CTFFIND3 to IMAGIC [link](http://grigoriefflab.janelia.org/node/1541#comment-396)
