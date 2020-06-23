@@ -1,6 +1,6 @@
 # CTFFIND3/4 and CTFTILT
- * Website: http://grigoriefflab.janelia.org/ctf
- * Conventions & coordinate system: since v. 2.7 the same as MRC [pdf](http://grigoriefflab.janelia.org/sites/default/files/Mindell_JSB2003.pdf)
+ * Website: https://grigoriefflab.umassmed.edu/ctf_estimation_ctffind_ctftilt
+ * Conventions & coordinate system: since v. 2.7 the same as MRC [pdf](https://grigoriefflab.umassmed.edu/accurate_determination_local_defocus_and_specimen_tilt_electron_microscopy)
  
  ![ctffind](https://cloud.githubusercontent.com/assets/6952870/7275522/cba37ba0-e904-11e4-93d6-3d72fbb49572.png)
 
