@@ -4,7 +4,7 @@
 
 ![conv_eman2](https://cloud.githubusercontent.com/assets/6952870/7273784/21fdc7c0-e8f7-11e4-91a1-21aa4d9a1fa3.png)
 
-  * Header metadata: [link](http://blake.bcm.edu/emanwiki/Eman2Metadata)
+  * Header metadata: [link](https://blake.bcm.edu/emanwiki/EMAN2/Eman2Metadata)
   * Supported image formats: [link](http://blake.bcm.edu/emanwiki/EMAN2ImageFormats)
   * CTF model (EMAN2): [link](http://blake.bcm.edu/emanwiki/EMAN2/CtfModel)
   * Image center convention: [link](http://blake.bcm.edu/emanwiki/Eman2TransformInPython#The_center_of_the_image)
