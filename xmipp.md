@@ -1,12 +1,12 @@
 # XMIPP
-  * Website: http://xmipp.cnb.csic.es/twiki/bin/view/Xmipp/WebHome
-  * [Conventions](http://xmipp.cnb.csic.es/twiki/bin/view/Xmipp/Conventions): ZYZ, standard
+  * Website: https://github.com/I2PC/xmipp-portal/wiki
+  * [Conventions](https://github.com/I2PC/xmipp-portal/wiki/Conventions): ZYZ, standard
   
   ![conv_xmipp](https://cloud.githubusercontent.com/assets/6952870/7273876/1fdf6ea2-e8f8-11e4-8a6f-45c72dce587a.png)
   
-  * Coordinate system & header description: [link](http://xmipp.cnb.csic.es/twiki/bin/view/Xmipp/FileFormats)
-   * [Note about header values](http://xmipp.cnb.csic.es/twiki/bin/view/Xmipp/AlignementParametersNote)
-  * Supported image formats: [link](http://xmipp.cnb.csic.es/twiki/bin/view/Xmipp/ImageFormats)
+  * Coordinate system & header description: [link](https://github.com/I2PC/xmipp-portal/wiki/FileFormats)
+   * [Note about header values](http://web.archive.org/web/20180816003835/http://xmipp.cnb.csic.es/twiki/bin/view/Xmipp/AlignementParametersNote)
+  * Supported image formats: [link](https://github.com/I2PC/xmipp-portal/wiki/ImageFormats)
   * Euler angles: (φ,θ,ψ). Positive rotations of object are clockwise. Projection direction is defined by (φ,θ). ψ is in-plane rotation for tilted image. For untilted ψ=φ=in-plane rotation. Sometimes you can find the following angles in XMIPP: rot=φ, tilt=θ, gamma(or psi)=ψ.
   
 ---
