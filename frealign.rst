@@ -8,6 +8,6 @@ FReAlign
     :width: 300px
 
 * Supported image formats: mrc, img, spi
-* Euler angles: (PSI,THETA,PHI). In Frealign, the angles give the rotations that need to be applied to bring the particle back into alignment. Frealign applies the shifts first and then the rotations. There are no mirrors used in Frealign. `README <http://grigoriefflab.janelia.org/sites/default/files/readme_frealign.txt>`_
+* Euler angles: (PSI,THETA,PHI). In Frealign, the angles give the rotations that need to be applied to bring the particle back into alignment. Frealign applies the shifts first and then the rotations. There are no mirrors used in Frealign. `README <https://grigoriefflab.umassmed.edu/system/tdf?path=readme_frealign.txt&file=1&type=node&id=22>`_
 * `Conversion scripts to and from FReAlign <https://grigoriefflab.umassmed.edu/frealign_conversion_scripts>`_
 * `XMIPP to FReAlign <https://grigoriefflab.umassmed.edu/forum/software/frealign/converting_xmipp_angles_shifts_frealign>`_
