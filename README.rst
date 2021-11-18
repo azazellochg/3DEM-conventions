@@ -145,6 +145,8 @@ File format conversion
 * `e2proc2d <http://blake.bcm.edu/emanwiki/EMAN2/Programs/e2proc2d>`_ / `e2proc3d <http://blake.bcm.edu/emanwiki/EMAN2/Programs/e2proc3d>`_
 * `em2em <https://www.imagescience.de/em2em.html>`_
 * `dm3 to other formats <http://web.archive.org/web/20150711065905/http://sites.bio.indiana.edu/~cryo/conversionFromDm3.html>`_
+* `Various IMOD commands <https://bio3d.colorado.edu/imod/doc/program_listing.html>`_
+* `relion_convert_to_tiff <https://relion.readthedocs.io/en/latest/Reference/MovieCompression.html#relion-convert-to-tiff>`_
 
 References
 ==========
