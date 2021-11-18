@@ -150,7 +150,7 @@ References
 ==========
 
 * `3DEM conventions <https://www.emdataresource.org/conventions.html>`_
-* `Few info about Euler angles <http://sparx-em.org/sparxwiki/Euler_angles>`_
+* `Few info about Euler angles <https://web.archive.org/web/20200214125323/http://sparx-em.org/sparxwiki/Euler_angles>`_
 * `The Transform Class in SPARX and EMAN2 <http://www.sciencedirect.com/science/article/pii/S1047847706002024>`_
 * `Transform Python class in EMAN2 <http://blake.bcm.edu/emanwiki/Eman2TransformInPython>`_
 * `Convert Euler angles for projections <http://blake.bcm.edu/emanwiki/EMAN2/FAQ/SpiderEuler>`_
