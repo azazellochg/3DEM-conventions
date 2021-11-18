@@ -9,5 +9,5 @@ cisTEM
 
 * Supported image formats: mrc, tif
 * Header info: https://cistem.org/frequently-asked-questions#tab-1-6
-* Euler angles: (PSI,THETA,PHI). In Frealign, the angles give the rotations that need to be applied to bring the particle back into alignment. Frealign applies the shifts first and then the rotations. There are no mirrors used in Frealign. [README](http://grigoriefflab.janelia.org/sites/default/files/readme_frealign.txt)
+* Euler angles: (PSI,THETA,PHI). In Frealign, the angles give the rotations that need to be applied to bring the particle back into alignment. Frealign applies the shifts first and then the rotations. There are no mirrors used in Frealign.
 * Relion coordinates to cisTEM: https://github.com/dzyla/relion_to_cistem
