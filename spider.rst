@@ -19,7 +19,7 @@ SPIDER
     [[cos theta, 0, -sin theta],[0, 1, 0],[sin theta, 0, cos theta]]
     [[cos psi,sin psi, 0],[-sin psi,cos psi,0],[0,0,1]]
 
-* Be carefull when using WEB! If a volume is displayed in Web as slices, the observed rotations will be, COUNTERCLOCKWISE for 'phi' and 'psi' rotations around Z-axis and CLOCKWISE for 'theta' rotation around Y-axis. Web displays a volume with first slice on top.
+* Be careful when using WEB! If a volume is displayed in Web as slices, the observed rotations will be, COUNTERCLOCKWISE for 'phi' and 'psi' rotations around Z-axis and CLOCKWISE for 'theta' rotation around Y-axis. Web displays a volume with first slice on top.
 * Conversion between SPIDER and Relion: `link1 <https://spider.wadsworth.org/spider_doc/spider/docs/techs/emx/spi2relion.html>`_, `link2 <https://spider.wadsworth.org/spider_doc/spider/docs/techs/emx/relion2spi.html>`_
 
 Case of RCT

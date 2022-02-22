@@ -11,6 +11,24 @@ XMIPP
 * `Note about header values <http://web.archive.org/web/20180816003835/http://xmipp.cnb.csic.es/twiki/bin/view/Xmipp/AlignementParametersNote>`_
 * `Supported image formats <https://github.com/I2PC/xmipp-portal/wiki/ImageFormats>`_
 * Euler angles: (φ,θ,ψ). Positive rotations of object are clockwise. Projection direction is defined by (φ,θ). ψ is in-plane rotation for tilted image. For untilted ψ=φ=in-plane rotation. Sometimes you can find the following angles in XMIPP: rot=φ, tilt=θ, gamma(or psi)=ψ.
+* Rotation matrix:
+
+.. code-block:: bash
+
+    r11 = cos(psi)cos(theta)cos(phi) - sin(psi)sin(phi)
+    r12 = cos(psi)cos(theta)sin(phi) + sin(psi)cos(phi)
+    r13 = -cos(psi)*sin(theta)
+
+    r21 = -sin(psi)cos(theta)cos(phi) - cos(psi)sin(phi)
+    r22 = -sin(psi)cos(theta)sin(phi) + cos(psi)cos(phi)
+    r23 = sin(psi)*sin(theta)
+
+    r31 = sin(theta)cos(phi)
+    r32 = sin(theta)sin(phi)
+    r33 = cos(theta)
+
+    where the first index refers to rows and the second to columns
+
 
 Case of RCT (version <=2.4)
 ---------------------------

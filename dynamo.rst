@@ -8,13 +8,4 @@ Dynamo
 * Supported image formats: em
 * Euler angles: (tdrot,tilt,narot) = (φ,θ,ψ). Positive rotations of object are clockwise. Projection direction is defined by (tdrot,tilt). Narot is in-plane rotation for tilted image. For untilted tdrot=narot=in-plane rotation
 * In the context of subtomogram	averaging, the angles are	understood as the	rotation that we need to operate on the template in order to align it with the particle. This is also the convention in AV3. XMIPP uses the opposite convention.	
-  
-	
-  
- 
-
-
-  
-	
-  
-
+* For conversion to M/Relion/Warp use https://github.com/alisterburt/eulerangles

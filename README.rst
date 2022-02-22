@@ -156,3 +156,4 @@ References
 * `The Transform Class in SPARX and EMAN2 <http://www.sciencedirect.com/science/article/pii/S1047847706002024>`_
 * `Transform Python class in EMAN2 <http://blake.bcm.edu/emanwiki/Eman2TransformInPython>`_
 * `Convert Euler angles for projections <http://blake.bcm.edu/emanwiki/EMAN2/FAQ/SpiderEuler>`_
+* https://github.com/alisterburt/eulerangles
